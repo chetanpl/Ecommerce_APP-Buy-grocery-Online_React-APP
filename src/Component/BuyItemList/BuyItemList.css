@@ -1,0 +1,9 @@
+.card_board_scroll  {
+    height: 396px;
+      overflow-x: overlay;
+  }
+  .card_board_scroll_empty{
+    height: 396px;
+    overflow-x: overlay;
+    text-align: center;
+  }

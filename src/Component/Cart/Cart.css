@@ -1,0 +1,19 @@
+.card_Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* width: 82%; */
+    flex: 4;
+    height: 100vh;
+    margin: 2rem 0rem 0rem 1rem;
+  }
+
+  .card__product_name_price{
+    font-size: 0.7rem;
+  }
+  .card__product_name_price_left{
+    float: left;
+  }
+  .card__product_name_price_right{
+    float: right;
+  }
