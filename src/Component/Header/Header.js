@@ -1,8 +1,8 @@
-import React from 'react'
+import React,{memo} from 'react'
 import '../Header/Header.css'
 import CartItemTotalCount from '../CartItemTotalCount/CartItemTotalCount'
 import Total_Purchased_Amount from '../Total_Purchased_Amount/Total_Purchased_Amount'
-export default function Header() {
+export default memo(function Header() {
   return (
     <div>
     <div className='mainHeader'>
@@ -13,4 +13,4 @@ export default function Header() {
     </div>
     </div>
   )
-}
+});

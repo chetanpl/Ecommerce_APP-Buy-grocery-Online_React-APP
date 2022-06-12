@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { memo, useEffect, useState } from 'react'
 import { connect, useDispatch } from 'react-redux';
 import './Cart.css'
 import { addTOCart } from '../../Action/Shoping.action'
@@ -43,6 +43,8 @@ function Cart({ products, sortType }) {
         }
       }
     }
+ console.log('Inside the addTocart');
+    
   }, [sortType]);
 
   if (productList.length > 0) {
@@ -54,7 +56,7 @@ function Cart({ products, sortType }) {
             <div className='card_outer_box'>
               <div className='card__inner__box'>
                 <img className='card__box__image' src={item.images[0].src}
-                  alt={item.tags[2].title} />
+                  alt={item.id} />
               </div></div>
             <div className='card__action_box'>
               <div className='card__product_name_price'>
@@ -80,4 +82,4 @@ const mapStatetoProps = (state) => {
   return { products: state.shopItem };
 }
 
-export default connect(mapStatetoProps, null)(Cart);
+export default connect(mapStatetoProps, null)(memo(Cart));
