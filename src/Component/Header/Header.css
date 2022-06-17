@@ -72,3 +72,30 @@
   background-position: center;
   color: rgb(255, 255, 255);
 }
+
+@media (max-width: 480px) {
+  .mobileDevice{
+    width:138%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobileDevice{
+    width:136%;
+  }
+}
+@media (min-height: 1024px) {
+  .mobileDevice{
+    width:100%;
+  }
+}
+@media (min-height: 1200px) {
+  .mobileDevice{
+    width:100%;
+  }
+}
+/* @media (min-height: 280px) and (min-width: 653px) {
+  .mobileDevice{
+    width:120%;
+  }
+} */
