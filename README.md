@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+<img width="1726" alt="image" src="https://github.com/chetanpl/Ecommerce_APP-Buy-grocery-Online_React-APP/assets/16497813/eeb3d7aa-7adc-49f6-8b23-093ee973dff4">
+<img width="1725" alt="image" src="https://github.com/chetanpl/Ecommerce_APP-Buy-grocery-Online_React-APP/assets/16497813/54a97a94-3aec-4c67-96e9-aee64f6eb725">
 
 # Mobile App URL :- https://62ace0404a63fe233b728a54--deft-kashata-3da16e.netlify.app/
 
